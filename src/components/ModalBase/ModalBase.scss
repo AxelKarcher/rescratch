@@ -1,0 +1,27 @@
+#modalbase-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  height: 100%;
+  min-width: 100vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+
+  #body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    #title {
+      font-weight: bold;
+      font-size: 50px;
+      text-align: center;
+    }
+  }
+}
